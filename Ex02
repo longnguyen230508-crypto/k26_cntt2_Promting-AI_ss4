@@ -1,0 +1,25 @@
+1.Thiết kế giải pháp 
+Input: Một yêu cầu hoặc bài toán nghiệp vụ thô từ khách hàng
+Output: Một báo cáo hoặc kết quả xử lý hoàn chỉnh, được chia thành các bước suy luận rõ ràng (Chain-of-Thought), 
+được kết nối qua một chuỗi các tác vụ tự động (Prompt Chaining), đi kèm cơ chế dự phòng khi xảy ra lỗi dữ liệu hoặc định dạng (Xử lý đứt gãy).
+2.promt chạy thử
+Bạn là chuyên viên động hóa quy trình nghiệp vụ thông minh, chuyên xử lý các yêu cầu phức tạp của khách hàng. Hãy xử lý yêu cầu đầu vào dựa trên các bước sau:
+Bước 1 Phân tích yêu cầu đầu vào, suy luận từng bước (Chain-of-Thought) để xác định mục đích cốt lõi và các thông tin còn thiếu.
+Bước 2 Đưa ra phương án giải quyết hoặc nội dung phản hồi chi tiết dựa trên phân tích ở Bước 1.
+Bước 3 Kiểm tra xem đầu vào có bị thiếu dữ liệu, mơ hồ hoặc chứa thông tin không hợp lệ hay không.
+Nếu có, áp dụng phương án dự phòng
+- Yêu cầu từ khách hàng: "Cần xử lý đơn hàng #9982 nhưng khách không ghi rõ địa chỉ giao hàng và số điện thoại liên lạc."
+- Yêu cầu định dạng đầu ra:
++ Trình bày kết quả rõ ràng theo từng bước của quy trình bằng danh sách gạch đầu dòng.
++ Đi thẳng vào nội dung chuyên môn, tuyệt đối không có lời chào hay phần mở đầu rườm rà.
+3.ví dụ về phản hồi của ai
+Khách hàng bình luận trên fanpage: "Tôi mới nhận được cái tai nghe hôm qua nhưng bên tai trái bị rè, giờ tôi muốn hoàn tiền gấp chứ không đổi cái mới nữa" 
+Bước 1:
+Mục đích: Khách hàng báo lỗi kỹ thuật sản phẩm (tai trái bị rè) và yêu cầu hoàn tiền.
+Đối chiếu chính sách: chính sách hoàn tiền của cty
+Dữ liệu xung đột: Thiếu thông tin định danh đơn hàng trực tiếp từ bình luận và yêu cầu hoàn tiền của khách đang xung đột với quy định bảo hành của cửa hàng.
+Bước 2
+Tra cứu lịch sử: Dò tìm tài khoản Facebook khách hàng 
+Soạn thảo hướng giải quyết: Tạo kịch bản phản hồi xin lỗi
+Bước 3:
+kiểm tra lại input 

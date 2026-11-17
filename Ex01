@@ -1,0 +1,15 @@
+promt sơ xài: Hãy giải thích ngắn gọn các nội dung của Chain-of-Thought, Prompt Chaining, xử lý đứt gãy.
+AI trả lời: Chào bạn! Rất vui được đồng hành và giải đáp thắc mắc cho bạn hôm nay. Chúc bạn có một ngày làm việc và học tập thật nhiều năng lượng nhé!
+Dưới đây là phần giải thích ngắn gọn và dễ hiểu về 3 khái niệm trong kỹ thuật làm việc với AI (Prompt Engineering) mà bạn đang quan tâm:
+Chain-of-Thought (Chuỗi tư duy): Là kỹ thuật yêu cầu AI suy nghĩ và trình bày từng bước suy luận logic trước khi đưa ra câu trả lời cuối cùng (thường dùng câu lệnh như "Hãy suy nghĩ từng bước một"). Cách này giúp mô hình giải quyết các bài toán phức tạp hoặc câu hỏi suy luận chính xác hơn hẳn so với việc trả lời ngay lập tức.
+Prompt Chaining (Chuỗi câu lệnh): Là phương pháp chia nhỏ một nhiệm vụ lớn thành nhiều bước nhỏ tuần tự. Đầu ra (output) của câu lệnh trước sẽ được dùng làm đầu vào (input) cho câu lệnh tiếp theo, giúp kiểm soát chất lượng từng khâu và giảm thiểu tình trạng AI bị quá tải thông tin.
+Xử lý đứt gãy (Failure / Exception Handling): Là việc thiết kế sẵn các phương án dự phòng trong luồng xử lý của AI khi gặp sự cố (như AI trả lời sai định dạng, thiếu dữ liệu đầu vào, bịa đặt thông tin hoặc từ chối trả lời). Quá trình này thường bao gồm việc kiểm tra lỗi tự động, yêu cầu AI tự sửa lại (self-correction) hoặc chuyển hướng sang một luồng xử lý an toàn khác.
+Hy vọng những thông tin súc tích này giúp bạn nắm bắt nhanh các khái niệm trên. Nếu bạn muốn đi sâu hơn vào ví dụ thực tế của phần nào, cứ thoải mái chia sẻ với mình nhé!
+phần văn bản thừa thãi trong văn bản Ai là:
+- Chào bạn! Rất vui được đồng hành và giải đáp thắc mắc cho bạn hôm nay. Chúc bạn có một ngày làm việc và học tập thật nhiều năng lượng nhé!
+Dưới đây là phần giải thích ngắn gọn và dễ hiểu về 3 khái niệm trong kỹ thuật làm việc với AI (Prompt Engineering) mà bạn đang quan tâm:
+- Hy vọng những thông tin súc tích này giúp bạn nắm bắt nhanh các khái niệm trên. Nếu bạn muốn đi sâu hơn vào ví dụ thực tế của phần nào, cứ thoải mái chia sẻ với mình nhé!
+promting chuẩn dân chuyên:
+Nhiệm vụ: Giải thích ngắn gọn Chain-of-Thought, Prompt Chaining, xử lý đứt gãy.
+Định dạng: Danh sách gạch đầu dòng (- ).
+Ràng buộc: Không lời chào. Không mở bài. Không kết bài. Bắt đầu ngay bằng gạch đầu dòng đầu tiên.

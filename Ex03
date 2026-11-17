@@ -1,0 +1,33 @@
+PHẦN 1: BÁO CÁO THIẾT KẾ GIẢI PHÁP
+Chain-of-Thought (CoT): Buộc AI phải tư duy logic từng bước
+prompt Chaining (Chuỗi Prompt tuần tự): Chia bài toán lớn thành 3 bước độc lập
+Xử lý đứt gãy :tự động kích hoạt Prompt sửa lỗi kèm theo thông báo lỗi
+PHẦN 2: CHUỖI PROMPT LIÊN KẾT (PROMPT CHAINING)
+Bài toán mẫu: Lập kế hoạch kinh doanh quán trà sữa mang đi (Take-away) vốn 200 triệu VNĐ tại khu vực gần trường đại học.
+Vai trò: Bạn là Chuyên gia tư vấn chiến lược 
+Nhiệm vụ: Lập định vị và menu cho quán trà sữa Take-away vốn 200 triệu VNĐ gần trường đại học.
+Bước 1: Định vị thương hiệu 
+Quy trình suy luận (Chain-of-Thought):
+1. Phân tích hành vi sinh viên (giá nhạy cảm, thích trend, cần phục vụ nhanh).
+2. Chọn 5 món chủ lực (Signature) tối ưu nguyên liệu dùng chung để tránh tồn kho.
+3. Định giá bán lẻ (từ 20.000đ - 32.000đ) đảm bảo biên lợi nhuận gộp trên 65%.
+Yêu cầu đầu ra: Trình bày ngắn gọn dưới dạng Bảng (Tên món | Nguyên liệu chính | Giá vốn ước tính | Giá bán). Không viết lan man.
+Bước 2: Phân bổ ngân sách
+Vai trò: Bạn là Kế toán trưởng ngành F&B.
+Ngữ cảnh (Dữ liệu Menu từ Bước 1):
+[DÁN BẢNG MENU Ở BƯỚC 1 VÀO ĐÂY]
+Nhiệm vụ: Lập bảng phân bổ 200 triệu VNĐ vốn ban đầu và tính điểm hòa vốn (Break-even Point).
+Quy trình suy luận:
+1. Chia vốn thành 4 nhóm: Mặt bằng & Cọc (20%), Thiết bị pha chế & Quầy (35%), Nguyên liệu đợt đầu & Bao bì (15%), Vốn lưu động & Marketing khai trương (30%).
+2. Tính chi phí cố định hàng tháng (Mặt bằng, nhân sự part-time, điện nước).
+3. Dựa vào lợi nhuận trung bình/ly ở Bước 1, tính chính xác số ly cần bán mỗi ngày để hòa vốn.
+Yêu cầu đầu ra Bảng phân bổ chi phí và công thức tính điểm hòa vốn rõ ràng. Tổng chi phí đầu tư ban đầu bắt buộc bằng đúng 200.000.000 VNĐ.
+Bước 3: Lập kế hoạch vận hành
+Vai trò: Bạn là Quản lý vận hành chuỗi F&B.
+Ngữ cảnh (Dữ liệu từ Bước 1 và Bước 2):
+[DÁN KẾT QUẢ BƯỚC 1 VÀ BƯỚC 2 VÀO ĐÂY]
+Nhiệm vụ:
+1. Lên lịch trình khai trương 7 ngày đầu tiên sử dụng đúng phần ngân sách Marketing đã phân bổ ở Bước 2.
+2. Kiểm tra lỗi logic (Audit): Kiểm tra xem công suất pha chế của thiết bị ở Bước 2 có đáp ứng được số ly hòa vốn mỗi ngày không. Nếu bị quá tải hoặc thiếu ngân sách, hãy tự động điều chỉnh lại số liệu cho khớp.
+Yêu cầu đầu ra: Xuất bản kế hoạch hành động hoàn chỉnh, số liệu nhất quán 100% giữa các phần.
+{kết quả chạy thử sạch lỗi}
